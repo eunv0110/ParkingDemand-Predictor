@@ -80,7 +80,7 @@
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 30%;">
-    <h3 align="center">1️⃣ 데이터 전처리</h3>
+    <h3>1️⃣ 데이터 전처리</h3>
     <ul>
       <li>결측치 처리 및 데이터 정제</li>
       <li>필요한 변수 추가(준공연도, 총면적, 세대당 평균 면적 등)</li>
@@ -90,7 +90,7 @@
     </ul>
   </div>
   <div style="width: 30%;">
-    <h3 align="center">2️⃣ 탐색적 데이터 분석</h3>
+    <h3>2️⃣ 탐색적 데이터 분석</h3>
     <ul>
       <li>단변량 분석: 주요 변수 분포 확인 및 이상치 파악</li>
       <li>이변량 분석: 변수 간 상관관계 분석 및 실차량수와의 관계 탐색</li>
@@ -98,7 +98,7 @@
     </ul>
   </div>
   <div style="width: 30%;">
-    <h3 align="center">3️⃣ 모델링</h3>
+    <h3>3️⃣ 모델링</h3>
     <ul>
       <li>다양한 알고리즘 적용 및 성능 비교
         <ul>
