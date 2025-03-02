@@ -115,7 +115,6 @@
 
 ## 🔍 주요 분석 결과
 
-<div align="center">
 <table>
 <tr>
 <td width="33%" align="center">
@@ -145,23 +144,22 @@
     • 이상치 유지가 성능 향상에 기여<br><br>
     • '세대당 평균 면적' 변수 추가로 모델 성능 개선
   </p>
-  <div align="center">
-    <p><b>모델 성능 비교(R²):</b></p>
-    <table>
-      <tr><td>Random Forest</td><td>0.75 ⭐</td></tr>
-      <tr><td>XGBoost</td><td>0.68</td></tr>
-      <tr><td>LightGBM</td><td>0.66</td></tr>
-      <tr><td>KNN</td><td>0.63</td></tr>
-      <tr><td>Decision Tree</td><td>0.44</td></tr>
-      <tr><td>Linear Regression</td><td>0.39</td></tr>
-    </table>
-  </div>
 </td>
 </tr>
 </table>
-</div>
 
 <br>
+
+### 📊 모델 성능 비교 (R²)
+
+| 모델 | 성능 지표 |
+|------|---------|
+| Random Forest | 0.75 ⭐ |
+| XGBoost | 0.68 |
+| LightGBM | 0.66 |
+| KNN | 0.63 |
+| Decision Tree | 0.44 |
+| Linear Regression | 0.39 |
 
 ## 📊 모델 예측 결과
 
