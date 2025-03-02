@@ -29,7 +29,7 @@
 ## 📝 문제 정의
 
 ```
-❓ 신규 임대아파트 단지의 주차 수요(실차량수)를 정확히 예측하여<br>효율적인 주차 공간 설계에 기여
+❓ 신규 임대아파트 단지의 주차 수요(실차량수)를 정확히 예측하여 효율적인 주차 공간 설계에 기여
 ```
 
 <br>
@@ -116,50 +116,49 @@
 ## 🔍 주요 분석 결과
 
 <div align="center">
-  <table>
-    <tr>
-      <th width="33%" align="center">📊 단변량 분석</th>
-      <th width="33%" align="center">📈 이변량 분석</th>
-      <th width="33%" align="center">🤖 모델링 결과</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>총세대수, 총면적, 임대료, 임대보증금 데이터에 이상치가 존재함</li>
-          <li>대부분의 건물형태는 계단식으로 구성됨</li>
-          <li>난방방식은 지역난방이 가장 많으며, 승강기는 전체동 설치가 일반적임</li>
-          <li>전용면적은 40-50㎡ 구간이 가장 많이 분포함</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>실차량수와 총면적, 총세대수 간의 뚜렷한 양의 상관관계 확인</li>
-          <li>T-Test 결과(t=16.20, p=3.24e-44)로 총면적과 실차량수 간 유의미한 관계 입증</li>
-          <li>전용면적 40-60㎡ 구간 세대수가 실차량수와 높은 상관관계</li>
-          <li>임대보증금과 실차량수 간 양의 상관관계 확인</li>
-          <li>건물형태가 중요 예측 요소로 작용</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Random Forest 모델이 최고 성능 보임</li>
-          <li>하이퍼파라미터 최적화로 R² 값 0.70→0.75 향상</li>
-          <li>이상치 유지가 성능 향상에 기여</li>
-          <li>'세대당 평균 면적' 변수 추가로 모델 성능 개선</li>
-        </ul>
-        <br>
-        <b>모델 성능 비교(R²):</b>
-        <ul>
-          <li>Random Forest: 0.75 ⭐</li>
-          <li>XGBoost: 0.68</li>
-          <li>LightGBM: 0.66</li>
-          <li>KNN: 0.63</li>
-          <li>Decision Tree: 0.44</li>
-          <li>Linear Regression: 0.39</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<table>
+<tr>
+<td width="33%" align="center">
+  <h3>📊 단변량 분석</h3>
+  <p align="left">
+    • 총세대수, 총면적, 임대료, 임대보증금 데이터에 이상치가 존재함<br><br>
+    • 대부분의 건물형태는 계단식으로 구성됨<br><br>
+    • 난방방식은 지역난방이 가장 많으며, 승강기는 전체동 설치가 일반적임<br><br>
+    • 전용면적은 40-50㎡ 구간이 가장 많이 분포함
+  </p>
+</td>
+<td width="33%" align="center">
+  <h3>📈 이변량 분석</h3>
+  <p align="left">
+    • 실차량수와 총면적, 총세대수 간의 뚜렷한 양의 상관관계 확인<br><br>
+    • T-Test 결과(t=16.20, p=3.24e-44)로 총면적과 실차량수 간 유의미한 관계 입증<br><br>
+    • 전용면적 40-60㎡ 구간 세대수가 실차량수와 높은 상관관계<br><br>
+    • 임대보증금과 실차량수 간 양의 상관관계 확인<br><br>
+    • 건물형태가 중요 예측 요소로 작용
+  </p>
+</td>
+<td width="33%" align="center">
+  <h3>🤖 모델링 결과</h3>
+  <p align="left">
+    • Random Forest 모델이 최고 성능 보임<br><br>
+    • 하이퍼파라미터 최적화로 R² 값 0.70→0.75 향상<br><br>
+    • 이상치 유지가 성능 향상에 기여<br><br>
+    • '세대당 평균 면적' 변수 추가로 모델 성능 개선
+  </p>
+  <div align="center">
+    <p><b>모델 성능 비교(R²):</b></p>
+    <table>
+      <tr><td>Random Forest</td><td>0.75 ⭐</td></tr>
+      <tr><td>XGBoost</td><td>0.68</td></tr>
+      <tr><td>LightGBM</td><td>0.66</td></tr>
+      <tr><td>KNN</td><td>0.63</td></tr>
+      <tr><td>Decision Tree</td><td>0.44</td></tr>
+      <tr><td>Linear Regression</td><td>0.39</td></tr>
+    </table>
+  </div>
+</td>
+</tr>
+</table>
 </div>
 
 <br>
