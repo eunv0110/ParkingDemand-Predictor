@@ -151,16 +151,36 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-| 모델 | 성능 지표 |
-|------|---------|
-| Random Forest | 0.75 ⭐ |
-| XGBoost | 0.68 |
-| LightGBM | 0.66 |
-| KNN | 0.63 |
-| Decision Tree | 0.44 |
-| Linear Regression | 0.39 |
-
+<table>
+<tr>
+<th>모델</th>
+<th>성능 지표</th>
+</tr>
+<tr>
+<td>Random Forest</td>
+<td>0.75 ⭐</td>
+</tr>
+<tr>
+<td>XGBoost</td>
+<td>0.68</td>
+</tr>
+<tr>
+<td>LightGBM</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>KNN</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td>Decision Tree</td>
+<td>0.44</td>
+</tr>
+<tr>
+<td>Linear Regression</td>
+<td>0.39</td>
+</tr>
+</table>
 </td>
 <td width="50%" valign="top">
 
