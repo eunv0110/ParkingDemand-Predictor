@@ -122,10 +122,14 @@
     <tr>
       <th>모델</th>
       <th>성능 지표</th>
+      <th>성능 비교 그래프</th>
     </tr>
     <tr>
       <td>Random Forest</td>
       <td>0.75 ⭐</td>
+      <td rowspan="6">
+        <img src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" alt="모델 성능 비교 그래프" width="400px">
+      </td>
     </tr>
     <tr>
       <td>XGBoost</td>
@@ -148,10 +152,6 @@
       <td>0.39</td>
     </tr>
   </table>
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" alt="모델 성능 비교 그래프" width="600px">
 </div>
 
 ## 📊 모델 예측 결과
