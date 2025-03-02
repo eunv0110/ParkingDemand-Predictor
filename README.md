@@ -148,6 +148,10 @@
 
 ### 📊 모델 성능 비교 (R²)
 
+<table>
+<tr>
+<td>
+
 | 모델 | 성능 지표 |
 |------|---------|
 | Random Forest | 0.75 ⭐ |
@@ -156,7 +160,13 @@
 | KNN | 0.63 |
 | Decision Tree | 0.44 |
 | Linear Regression | 0.39 |
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" />
+
+</td>
+<td>
+<img width="424" alt="모델 성능 비교 그래프" src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" />
+</td>
+</tr>
+</table>
 
 ## 📊 모델 예측 결과
 
