@@ -148,8 +148,8 @@
 
 ### 📊 모델 성능 비교 (R²)
 
-<div style="display: flex; align-items: flex-start;">
-<div style="flex: 0 0 50%;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="width: 45%;">
 
 | 모델 | 성능 지표 |
 |------|---------|
@@ -161,8 +161,10 @@
 | Linear Regression | 0.39 |
 
 </div>
-<div style="flex: 0 0 50%;">
-<img width="424" alt="모델 성능 비교 그래프" src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" />
+<div style="width: 45%;">
+
+![모델 성능 비교 그래프](https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713)
+
 </div>
 </div>
 
