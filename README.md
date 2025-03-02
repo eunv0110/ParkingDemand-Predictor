@@ -115,37 +115,6 @@
 
 ## 🔍 주요 분석 결과
 
-<table>
-<tr>
-  <th width="33%" align="center">📊 단변량 분석</th>
-  <th width="33%" align="center">📈 이변량 분석</th>
-  <th width="33%" align="center">🤖 모델링 결과</th>
-</tr>
-<tr>
-  <td align="left">
-    • 총세대수, 총면적, 임대료, 임대보증금 데이터에 이상치가 존재함<br><br>
-    • 대부분의 건물형태는 계단식으로 구성됨<br><br>
-    • 난방방식은 지역난방이 가장 많으며, 승강기는 전체동 설치가 일반적임<br><br>
-    • 전용면적은 40-50㎡ 구간이 가장 많이 분포함
-  </td>
-  <td align="left">
-    • 실차량수와 총면적, 총세대수 간의 뚜렷한 양의 상관관계 확인<br><br>
-    • T-Test 결과(t=16.20, p=3.24e-44)로 총면적과 실차량수 간 유의미한 관계 입증<br><br>
-    • 전용면적 40-60㎡ 구간 세대수가 실차량수와 높은 상관관계<br><br>
-    • 임대보증금과 실차량수 간 양의 상관관계 확인<br><br>
-    • 건물형태가 중요 예측 요소로 작용
-  </td>
-  <td align="left">
-    • Random Forest 모델이 최고 성능 보임<br><br>
-    • 하이퍼파라미터 최적화로 R² 값 0.70→0.75 향상<br><br>
-    • 이상치 유지가 성능 향상에 기여<br><br>
-    • '세대당 평균 면적' 변수 추가로 모델 성능 개선
-  </td>
-</tr>
-</table>
-
-<br>
-
 ### 📊 모델 성능 비교 (R²)
 
 <table width="100%">
@@ -183,9 +152,7 @@
 </table>
 </td>
 <td width="50%" valign="top">
-
-![모델 성능 비교 그래프](https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713)
-
+<img src="https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713" alt="모델 성능 비교 그래프">
 </td>
 </tr>
 </table>
