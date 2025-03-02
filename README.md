@@ -148,8 +148,9 @@
 
 ### 📊 모델 성능 비교 (R²)
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-<div style="width: 45%;">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
 | 모델 | 성능 지표 |
 |------|---------|
@@ -160,13 +161,14 @@
 | Decision Tree | 0.44 |
 | Linear Regression | 0.39 |
 
-</div>
-<div style="width: 45%;">
+</td>
+<td width="50%" valign="top">
 
 ![모델 성능 비교 그래프](https://github.com/user-attachments/assets/cccdf105-3884-4f42-85c9-4ab954777713)
 
-</div>
-</div>
+</td>
+</tr>
+</table>
 
 ## 📊 모델 예측 결과
 
