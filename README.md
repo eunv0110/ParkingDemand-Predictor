@@ -3,6 +3,18 @@
   <p><i>신규 임대아파트 주차 수요 예측 데이터 분석 프로젝트</i></p>
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-3F4F75?style=for-the-badge&logo=matplotlib&logoColor=white" />
+</p>
+
+## 📊 모델 예측 결과 예시
+
+아래 표는 본 프로젝트에서 개발한 모델을 통해 예측한 아파트 단지별 예상 차량수를 보여줍니다. 총세대수와 지역 등의 특성을 바탕으로 각 단지에 필요한 실제 주차 수요를 예측한 결과입니다. 이러한 예측은 신규 임대아파트 단지의 주차 공간 설계 시 참고할 수 있는 중요한 지표가 됩니다.
+
 <div align="center">
 <table>
   <tr>
@@ -49,6 +61,8 @@
   </tr>
 </table>
 </div>
+
+예측 결과를 보면 총세대수와 예상차량수 사이에 일반적으로 비례 관계가 있으나, 단순한 비례 관계만으로는 설명할 수 없는 패턴이 있습니다. 예를 들어, C0352(대전판암4)의 경우 총세대수가 2389세대로 가장 많지만, 예상차량수는 1241대로 세대수 대비 상대적으로 낮습니다. 이는 지역적 특성, 대중교통 접근성, 세대 구성 등 다양한 요인이 영향을 미치는 것으로 분석됩니다.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -198,9 +212,9 @@
     <tr>
       <td align="center"><b>구종한</b></td>
       <td align="center"><b>김효연</b></td>
-      <td align="center"><b>유현종</b></td>
-      <td align="center"><b>이대희</b></td>
-      <td align="center"><b>정요한</b></td>
+      <td align="center"><b>박지성</b></td>
+      <td align="center"><b>조강윤</b></td>
+      <td align="center"><b>최재영</b></td>
       <td align="center"><b>황은비</b></td>
     </tr>
   </table>
