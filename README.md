@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Matplotlib-3F4F75?style=for-the-badge&logo=matplotlib&logoColor=white" />
   <br><br>
-  <p><i>KT AIVLE School 6기 미니프로젝트 2차</i></p>
 </div>
 
 <br>
@@ -355,10 +354,3 @@
 </div>
 
 <br>
-
----
-
-<div align="center">
-  <p>본 프로젝트는 KT AIVLE School 2차 미니프로젝트로 진행되었습니다.</p>
-  <p>© 2025 KT AIVLE School 6기 미니프로젝트 2차</p>
-</div>
