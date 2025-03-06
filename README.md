@@ -42,6 +42,63 @@
 
 <br>
 
+## 🛠️ 기술 스택
+
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">분류</th>
+      <th align="center">기술</th>
+      <th align="center">용도</th>
+    </tr>
+    <tr>
+      <td rowspan="5" width="10%">💻</td>
+      <td width="20%"><b>언어</b></td>
+      <td width="25%">Python</td>
+      <td width="45%">전체 프로젝트 개발</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>데이터 처리</b></td>
+      <td>Pandas</td>
+      <td>데이터프레임 조작 및 전처리</td>
+    </tr>
+    <tr>
+      <td>NumPy</td>
+      <td>수치 연산 및 배열 처리</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>시각화</b></td>
+      <td>Matplotlib</td>
+      <td>기본 차트 및 그래프 생성</td>
+    </tr>
+    <tr>
+      <td>Seaborn</td>
+      <td>고급 통계 시각화</td>
+    </tr>
+    <tr>
+      <td rowspan="4">🤖</td>
+      <td rowspan="3"><b>머신러닝</b></td>
+      <td>Scikit-learn</td>
+      <td>데이터 전처리, 모델 학습 및 평가</td>
+    </tr>
+    <tr>
+      <td>XGBoost</td>
+      <td>그래디언트 부스팅 기반 예측 모델</td>
+    </tr>
+    <tr>
+      <td>LightGBM</td>
+      <td>경량 그래디언트 부스팅 프레임워크</td>
+    </tr>
+    <tr>
+      <td><b>개발 환경</b></td>
+      <td>Jupyter Notebook</td>
+      <td>코드 작성 및 분석 문서화</td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
 ## 📊 데이터 소개
 
 <table>
@@ -278,64 +335,6 @@
     </tr>
   </table>
 </div>
-<br>
-
-
-## 🛠️ 기술 스택
-
-<div align="center">
-  <table>
-    <tr>
-      <th colspan="2" align="center">분류</th>
-      <th align="center">기술</th>
-      <th align="center">용도</th>
-    </tr>
-    <tr>
-      <td rowspan="5" width="10%">💻</td>
-      <td width="20%"><b>언어</b></td>
-      <td width="25%">Python</td>
-      <td width="45%">전체 프로젝트 개발</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>데이터 처리</b></td>
-      <td>Pandas</td>
-      <td>데이터프레임 조작 및 전처리</td>
-    </tr>
-    <tr>
-      <td>NumPy</td>
-      <td>수치 연산 및 배열 처리</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>시각화</b></td>
-      <td>Matplotlib</td>
-      <td>기본 차트 및 그래프 생성</td>
-    </tr>
-    <tr>
-      <td>Seaborn</td>
-      <td>고급 통계 시각화</td>
-    </tr>
-    <tr>
-      <td rowspan="4">🤖</td>
-      <td rowspan="3"><b>머신러닝</b></td>
-      <td>Scikit-learn</td>
-      <td>데이터 전처리, 모델 학습 및 평가</td>
-    </tr>
-    <tr>
-      <td>XGBoost</td>
-      <td>그래디언트 부스팅 기반 예측 모델</td>
-    </tr>
-    <tr>
-      <td>LightGBM</td>
-      <td>경량 그래디언트 부스팅 프레임워크</td>
-    </tr>
-    <tr>
-      <td><b>개발 환경</b></td>
-      <td>Jupyter Notebook</td>
-      <td>코드 작성 및 분석 문서화</td>
-    </tr>
-  </table>
-</div>
-
 <br>
 
 ## 👨‍💻 참여자 
