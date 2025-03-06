@@ -44,7 +44,7 @@
 
 ## 🛠️ 기술 스택
 
-<div align="center">
+<div>
   <table>
     <tr>
       <th colspan="2" align="center">분류</th>
